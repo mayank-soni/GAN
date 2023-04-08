@@ -1,4 +1,6 @@
 celeba/
 data/
 notes/
+generated/
+checkpoint/
 *.pth
