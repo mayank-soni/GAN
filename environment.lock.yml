@@ -1,4 +1,4 @@
-name: gan-aiap
+name: gan-101
 channels:
   - pytorch
   - nvidia
