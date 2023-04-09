@@ -1,6 +1,7 @@
 name: gan-101
 channels:
   - defaults
+  - pytorch
 dependencies:
   - python=3.8
   - opencv=4.6.0
