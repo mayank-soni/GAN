@@ -33,7 +33,7 @@ By: Mayank Soni, Quek Zhi Qiang, Soh Zhan Hong, Teng Kok Wai
 
 First introduced in 2014 by Ian J. Goodfellow and co-authors ([paper](https://arxiv.org/abs/1406.2661)), Generative Adversarial Networks (GANs) were a significant advance in the field of generative AI. They have typically been used for image generation, with the generated images both being used directly e.g. for illustration, as well as indirectly to augment labelled training data for other AI models. Beyond image generation, GANs can also be used for image translation, with CycleGANs (not explored in this article) able to translate aerial photos into maps, sketches into photo-realistic images, or even replace objects in images with other objects. GANs have even been used to generate realistic environments for the training of reinforcement learning agents. That said, while the focus has often been on images, GANs could theoretically be used to generate other sorts of data as well, although we won’t look into those in this article.
 
-A GAN is a unique type of architecture consisting of two [neural networks](https://www.techtarget.com/searchenterpriseai/definition/neural-network) competing with each other, a generator network and a discriminator network (see details in section 2). The two networks are trained together, albeit with opposing goals. However, once trained, they can be used independently.
+A GAN is a unique type of architecture consisting of two [neural networks](https://www.techtarget.com/searchenterpriseai/definition/neural-network) competing with each other, a generator network and a discriminator network (see details in [Section 2](#what-are-gans)). The two networks are trained together, albeit with opposing goals. However, once trained, they can be used independently.
 
 <div align="center">
 
@@ -607,7 +607,7 @@ _Figure 13: LSGAN loss values rolled over 79 training cycles (1 epoch equivalent
 
 #### WGANs: Wasserstein loss function
 
-Note: The discriminator used in WGAN is known as critic. {#wgans-wasserstein-loss-function-note-the-discriminator-used-in-wgan-is-known-as-critic}
+_Note: The discriminator used in WGAN is known as critic._
 
 The Wasserstein loss function was proposed in this [paper](https://arxiv.org/pdf/1701.07875.pdf) and derives from the earth mover distance between two distributions. It was designed to avoid saturated losses in DCGAN, where the discriminator is easily able to detect the artificial images and thus the loss function saturates i.e. improvements to the generator are not able to improve the loss function significantly and gradients generated are low.
 

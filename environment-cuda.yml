@@ -1,0 +1,16 @@
+name: gan-101
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch-cuda=11.8
+  - torchvision=0.15.0
+  - pytorch=2.0.0
+  - torchaudio=2.0.0
+  - ipykernel=6.19.2
+  - matplotlib
+  - tqdm=4.65.0
+  - ipywidgets=8.0.4
+  - pandas=1.5.3
+  - opencv=4.6.0

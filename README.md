@@ -19,16 +19,20 @@ The results of our findings is briefly discussed below. Please refer to our [art
 There are 2 options:
 
 1. Experiment this repository online using [Binder](https://mybinder.org/v2/gh/mayank-soni/GAN/HEAD)
-2. Alternatively, you may clone this repository locally
+2. Alternatively, you may clone this repository locally.
 
-To run it locally, install relevant dependencies using
+To run it locally, install relevant dependencies using one of the environment.yml files available.
+
+- Use `environment-cuda.yml` for running PyTorch with CUDA.
+- Use `environment-m1.yml` for run this repository on Apple Silicon.
+- Additionally, `environment.lock.yml` is added to replicate the exact dependency tree while developing this repository on Windows.
 
 ```
 # install conda environment
-conda install --file requirements.yml
+conda install --file environment-{arch}.yml
 
 # activate conda environment
-conda activate gan-aiap
+conda activate gan-101
 ```
 
 ## Usage
