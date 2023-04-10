@@ -114,6 +114,7 @@ This program is developed by apprentices from Batch 12 of AI Singapore's Apprent
 
 Check out the work from other groups too:
 
-- [liong-t/aiap12_group1_sharing: AIAP Sharing Project Topic](https://github.com/liong-t/aiap12_group1_sharing)
-- [AlvinNg89/AIAP-RAG-Chatbot: Chatbot for AI Singapore AI Apprenticeship Program](https://github.com/AlvinNg89/AIAP-RAG-Chatbot)
-- [AIAP-Group-Sharing-5/Image-segmentation-using-U-Net](https://github.com/AIAP-Group-Sharing-5/Image-segmentation-using-U-Net)
+- **Stable Diffusion:** [liong-t/aiap12_group1_sharing: AIAP Sharing Project Topic](https://github.com/liong-t/aiap12_group1_sharing)
+- **Transfer Learning in NLP:** [AlvinNg89/AIAP-RAG-Chatbot: Chatbot for AI Singapore AI Apprenticeship Program](https://github.com/AlvinNg89/AIAP-RAG-Chatbot)
+- **CLIP:** [Group3-CLIP/CLIP_Caption](https://github.com/Group3-CLIP/CLIP_Caption)
+- **Image Segmentation using U-Net:** [AIAP-Group-Sharing-5/Image-segmentation-using-U-Net](https://github.com/AIAP-Group-Sharing-5/Image-segmentation-using-U-Net)
