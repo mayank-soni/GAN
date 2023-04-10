@@ -58,6 +58,7 @@ LSGAN training results using 10000 samples with 60 epochs:
 ![results-lsgan](assets/lsgan-10000-xfer-False.gif)
 
 </div>
+
 ### WGAN
 
 WGAN training results using 10000 samples with 60 epochs:
